@@ -59,7 +59,8 @@ $child2->right = $leaf4;
 
 function print_depth($root)
 {
-    if($root === null){
+    if($root === null)
+    {
         return array();
     }
 
@@ -69,6 +70,6 @@ function print_depth($root)
     return array($root->val, ...$left, ...$right);
 }
 
-print_r(print_depth($root))
+#print_r(print_depth($root))
 
 ?>
