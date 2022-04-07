@@ -1,1 +1,1 @@
-{"version":1,"defects":[],"times":{"ExampleAssertionsTest::testIfStringsMatch":0.002}}
+{"version":1,"defects":{"TestBinaryTree::testBinaryTree":4},"times":{"ExampleAssertionsTest::testIfStringsMatch":0.002,"TestTest::testTest":0,"TestBinaryTree::testBinaryTree":0.003,"TestLinkedList::testLinkedList":0,"TestLinkedList::test_linked_list_sum":0,"TestLinkedList::testLinkedListSum":0,"TestMyTest::testMyTest":0,"BinaryTreeTest::testBinaryTree":0.002,"LinkedListTest::testLinkedList":0,"LinkedListTest::testLinkedListSum":0}}

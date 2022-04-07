@@ -1,22 +1,21 @@
-<?php
-    $my_name = isset($_POST['name']) ? $_POST['name'] : '';
-?>
+<h1>Testing DB</h1>
+<div>
+    <?php
+        try{
 
-<h1>What's Your Name</h1>
+            $pdo = new PDO('mysql:host=127.0.0.1;port=3306;dbname=testdb;');
+            $stmt = $pdo->query("SELECT * FROM Users");
 
-<form action="<?= $_SERVER["PHP_SELF"]?>" method="POST">
-    <label for="name" id="name">Name</label>
-    <br/>
-    <input type="text" name="name" placeholder="enter your name here" 
-    value="<?= htmlentities($my_name) ?>"/>
-    <button type="submit">Submit</button>
-</form>
+            while($row = $pdo->fetch(PDO::FETCH_ASSOCIATE)){
+                print_r($row);
+            }
+            
+        } catch(PDOException $e){
+    
+            echo $e->getMessage();
+        }
 
-<pre>
-    <?= 
-    print_r($_POST); 
-    //print_r($_REQUEST);
-    //print_r($_SERVER);
-    //print_r($GLOBALS);
+        phpinfo();
+    
     ?>
-</pre>
+</div>
