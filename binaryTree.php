@@ -66,7 +66,7 @@ function print_depth($root)
 
     $left = print_depth($root->left);
     $right = print_depth($root->right);
-
+    #if you forget to spread the recursive syntax you'll get an associative array
     return array($root->val, ...$left, ...$right);
 }
 

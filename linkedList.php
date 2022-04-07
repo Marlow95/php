@@ -1,19 +1,23 @@
 <?php
 
-class Node {
+class Node 
+{
 
     public $val;
     public $next;
 
-    public function __construct($val){
+    function __construct($val)
+    {
         $this->val = $val;
     }
 
-    public function read_val(){
+    function read_val()
+    {
         return $this->val;
     }
 
-    public function read_next(){
+    function read_next()
+    {
         return $this->next;
     }
 }
@@ -26,12 +30,13 @@ $c = new Node(30);
 $a->next = $b;
 $b->next = $c;
 
-function print_list($head){
+function print_list($head)
+{
     $curr = $head;
     $arr = array();
 
-    while($curr !== null){
-
+    while($curr !== null)
+    {
         array_push($arr, $curr->val);
         $curr = $curr->next;
     }
@@ -39,6 +44,21 @@ function print_list($head){
     return $arr;
 }
 
-print_r(print_list($a));
+function linked_list_sum($head)
+{
+    $curr = $head;
+    $sum = 0;
+
+    while($curr !== null)
+    {
+        $sum += $curr->val;
+        $curr = $curr->next;
+    }
+
+    return $sum;
+}
+
+
+//print_r(linked_list_sum($a));
 
 ?>
