@@ -5,8 +5,10 @@
         $user = 'marlowc';
         $pass = '';
         $pdo = new PDO($dsn, $user, $pass);
-        
-        //Test exception for nonsense data
+
+        //UnitTest exception & succesfor nonsense data
+        //Will finish setup later for an integration test
+
         try{
             echo('<h5>' . "Connection Open" . '</h5>'); 
             $stmt =  $pdo->query('SELECT * FROM Users');
