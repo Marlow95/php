@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="/home/user/Documents/php/tests" tests="5" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.007358">
-    <testsuite name="BinaryTreeTest" file="/home/user/Documents/php/tests/BinaryTreeTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.004159">
-      <testcase name="testBinaryTree" class="BinaryTreeTest" classname="BinaryTreeTest" file="/home/user/Documents/php/tests/BinaryTreeTest.php" line="8" assertions="1" time="0.004159"/>
+  <testsuite name="/home/user/Documents/php/tests" tests="5" assertions="5" errors="0" warnings="0" failures="0" skipped="0" time="0.008076">
+    <testsuite name="BinaryTreeTest" file="/home/user/Documents/php/tests/BinaryTreeTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.005011">
+      <testcase name="testBinaryTree" class="BinaryTreeTest" classname="BinaryTreeTest" file="/home/user/Documents/php/tests/BinaryTreeTest.php" line="8" assertions="1" time="0.005011"/>
     </testsuite>
-    <testsuite name="LinkedListTest" file="/home/user/Documents/php/tests/LinkedListTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.001026">
-      <testcase name="testLinkedList" class="LinkedListTest" classname="LinkedListTest" file="/home/user/Documents/php/tests/LinkedListTest.php" line="8" assertions="1" time="0.000521"/>
-      <testcase name="testLinkedListSum" class="LinkedListTest" classname="LinkedListTest" file="/home/user/Documents/php/tests/LinkedListTest.php" line="14" assertions="1" time="0.000504"/>
+    <testsuite name="LinkedListTest" file="/home/user/Documents/php/tests/LinkedListTest.php" tests="2" assertions="2" errors="0" warnings="0" failures="0" skipped="0" time="0.001363">
+      <testcase name="testLinkedList" class="LinkedListTest" classname="LinkedListTest" file="/home/user/Documents/php/tests/LinkedListTest.php" line="8" assertions="1" time="0.000560"/>
+      <testcase name="testLinkedListSum" class="LinkedListTest" classname="LinkedListTest" file="/home/user/Documents/php/tests/LinkedListTest.php" line="14" assertions="1" time="0.000803"/>
     </testsuite>
-    <testsuite name="TestMyTest" file="/home/user/Documents/php/tests/TestMyTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001099">
-      <testcase name="testMyTest" class="TestMyTest" classname="TestMyTest" file="/home/user/Documents/php/tests/TestMyTest.php" line="8" assertions="1" time="0.001099"/>
+    <testsuite name="TestMyTest" file="/home/user/Documents/php/tests/TestMyTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001071">
+      <testcase name="testMyTest" class="TestMyTest" classname="TestMyTest" file="/home/user/Documents/php/tests/TestMyTest.php" line="8" assertions="1" time="0.001071"/>
     </testsuite>
-    <testsuite name="TestTest" file="/home/user/Documents/php/tests/TestTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.001075">
-      <testcase name="testTest" class="TestTest" classname="TestTest" file="/home/user/Documents/php/tests/TestTest.php" line="8" assertions="1" time="0.001075"/>
+    <testsuite name="TestTest" file="/home/user/Documents/php/tests/TestTest.php" tests="1" assertions="1" errors="0" warnings="0" failures="0" skipped="0" time="0.000631">
+      <testcase name="testTest" class="TestTest" classname="TestTest" file="/home/user/Documents/php/tests/TestTest.php" line="8" assertions="1" time="0.000631"/>
     </testsuite>
   </testsuite>
 </testsuites>

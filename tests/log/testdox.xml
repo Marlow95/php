@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tests>
-  <test className="BinaryTreeTest" methodName="testBinaryTree" prettifiedClassName="Binary Tree" prettifiedMethodName="Binary tree" status="0" time="0.004158848" size="-1" groups="default">
+  <test className="BinaryTreeTest" methodName="testBinaryTree" prettifiedClassName="Binary Tree" prettifiedMethodName="Binary tree" status="0" time="0.00506433" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="LinkedListTest" methodName="testLinkedList" prettifiedClassName="Linked List" prettifiedMethodName="Linked list" status="0" time="0.000521472" size="-1" groups="default">
+  <test className="LinkedListTest" methodName="testLinkedList" prettifiedClassName="Linked List" prettifiedMethodName="Linked list" status="0" time="0.000701424" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="LinkedListTest" methodName="testLinkedListSum" prettifiedClassName="Linked List" prettifiedMethodName="Linked list sum" status="0" time="0.000504419" size="-1" groups="default">
+  <test className="LinkedListTest" methodName="testLinkedListSum" prettifiedClassName="Linked List" prettifiedMethodName="Linked list sum" status="0" time="0.000778612" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="TestMyTest" methodName="testMyTest" prettifiedClassName="My" prettifiedMethodName="My test" status="0" time="0.00109887" size="-1" groups="default">
+  <test className="TestMyTest" methodName="testMyTest" prettifiedClassName="My" prettifiedMethodName="My test" status="0" time="0.001079371" size="-1" groups="default">
     <group name="default"/>
   </test>
-  <test className="TestTest" methodName="testTest" prettifiedClassName="Unnamed Tests" prettifiedMethodName="Test" status="0" time="0.001074608" size="-1" groups="default">
+  <test className="TestTest" methodName="testTest" prettifiedClassName="Unnamed Tests" prettifiedMethodName="Test" status="0" time="0.001352869" size="-1" groups="default">
     <group name="default"/>
   </test>
 </tests>
