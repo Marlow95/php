@@ -16,6 +16,6 @@
     "scripts-descriptions": {
         "start": "Starts the server on PORT 5050",
         "test": "starts phpunit for unit testing {composer test tests/[name].php}",
-        "testAll": "tests the entire tests folder"
+        "testAll": "unit tests all tests in the tests folder"
     }
 }

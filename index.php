@@ -14,8 +14,6 @@
     
             echo $e->getMessage();
         }
-
-        phpinfo();
     
     ?>
 </div>

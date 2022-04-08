@@ -3,9 +3,27 @@
     colors="true"
     printerClass="Codedungeon\PHPUnitPrettyResultPrinter\Printer"
 >
+    <coverage>
+
+        <include>
+            <directory suffix=".php">src</directory>
+        </include>
+
+        <report>
+            <clover outputFile="reports/coverage/clover.xml"/>
+            <html outputDirectory="reports/html-coverage" lowUpperBound="50" highLowerBound="90"/>
+            <text outputFile="reports/coverage/coverage.txt" showUncoveredFiles="false" showOnlySummary="true"/>
+        </report>
+
+    </coverage>
+
     <logging>
+        <junit outputFile="tests/log/junit.xml"/>
+        <teamcity outputFile="tests/log/teamcity.txt"/>
         <testdoxHtml outputFile="tests/log/testdox.html"/>
         <testdoxText outputFile="tests/log/testdox.txt"/>
         <testdoxXml outputFile="tests/log/testdox.xml"/>
+        <text outputFile="tests/log/logfile.txt"/>
     </logging>
+
 </phpunit>
