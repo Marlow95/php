@@ -9,12 +9,12 @@
         "codedungeon/phpunit-result-printer": "^0.32.0"
     },
     "scripts": {
-        "start": "php -S localhost:5051",
+        "start": "php -S localhost:5052",
         "test": "vendor/bin/phpunit",
         "testAll":  "vendor/bin/phpunit tests"
     },
     "scripts-descriptions": {
-        "start": "Starts the server on PORT 5051",
+        "start": "Starts the server on PORT 5052",
         "test": "starts phpunit for unit testing {composer test tests/[name].php}",
         "testAll": "unit tests all tests in the tests folder"
     }

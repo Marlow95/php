@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1649383212">
-  <project timestamp="1649383212">
+<coverage generated="1649480474">
+  <project timestamp="1649480474">
     <file name="/home/user/Documents/php/src/binaryTree.php">
       <class name="Node2" namespace="global">
         <metrics complexity="4" methods="4" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="6" coveredstatements="0" elements="10" coveredelements="0"/>

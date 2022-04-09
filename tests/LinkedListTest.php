@@ -1,7 +1,7 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-include('./src/linkedList.php');
+require_once('./src/linkedList.php');
 
 class LinkedListTest extends TestCase
 {
@@ -11,7 +11,7 @@ class LinkedListTest extends TestCase
         $this->assertEquals(print_list($a), [10, 20, 30]);
     }
     
-    function testLinkedListSum()
+    public function testLinkedListSum()
     {
         global $a;
         $this->assertEquals(linked_list_sum($a), 60);

@@ -1,11 +1,11 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-include('./src/test.php');
+require_once('./src/test.php');
 
 class TestTest extends TestCase
 {
-    function testTest()
+    public function testTest()
     {
         global $num;
         $this->assertSame($num['a'], 34);

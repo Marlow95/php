@@ -8,24 +8,24 @@ class Node2
     public $left;
     public $right;
 
-    function __construct($val)
+    public function __construct($val)
     {
         $this->val = $val;
         $this->left = null;
         $this->right = null;
     }
 
-    function read_val()
+    public function read_val()
     {
         return $this->val;
     }
 
-    function read_left()
+    public function read_left()
     {
         return $this->left;
     }
 
-    function read_right()
+    public function read_right()
     {
         return $this->right;
     }

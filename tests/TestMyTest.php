@@ -1,11 +1,11 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
-include('./src/mytest.php');
+require_once('./src/mytest.php');
 
 class TestMyTest extends TestCase
 {
-    function testMyTest()
+    public function testMyTest()
     {
         $this->assertSame(get_name("Marlow"), 'Marlow');
     }

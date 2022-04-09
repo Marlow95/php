@@ -6,17 +6,17 @@ class Node
     public $val;
     public $next;
 
-    function __construct($val)
+    public function __construct($val)
     {
         $this->val = $val;
     }
 
-    function read_val()
+    public function read_val()
     {
         return $this->val;
     }
 
-    function read_next()
+    public function read_next()
     {
         return $this->next;
     }
